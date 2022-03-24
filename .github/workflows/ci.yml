@@ -14,6 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Install cURL Headers
+      run: sudo apt-get install libcurl4-openssl-dev
     - name: Remove Gemfile.lock
       run: |
         rm Gemfile.lock
