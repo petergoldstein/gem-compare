@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gem-compare (0.0.7)
+    gem-compare (1.0.0)
       curb
       diffy
       gemnasium-parser
@@ -25,6 +25,7 @@ GEM
     stringio (3.0.1)
 
 PLATFORMS
+  x86_64-darwin-21
   x86_64-linux
 
 DEPENDENCIES

@@ -1,7 +1,7 @@
 require_relative '../../test_helper'
 require 'rubygems/comparator'
 
-class TestGemComparatorUtils < Minitest::Test
+class TestGemComparatorUtils < MiniTest::Spec
   def setup
     super
     # This should pull in Gem::Comparator::Utils

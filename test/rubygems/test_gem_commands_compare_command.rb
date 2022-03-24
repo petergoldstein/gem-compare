@@ -3,7 +3,7 @@ require 'rubygems/user_interaction'
 require 'rubygems/mock_gem_ui'
 require 'rubygems/commands/compare_command'
 
-class TestGemCommandsCompareCommand < Minitest::Test
+class TestGemCommandsCompareCommand < MiniTest::Spec
   include Gem::DefaultUserInteraction
 
   def setup

@@ -35,9 +35,6 @@ Compared versions: ["3.0.0", "4.0.0"]
   DIFFERENT executables:
     3.0.0: ["rails"]
     4.0.0: []
-  DIFFERENT has_rdoc:
-    3.0.0: true
-    4.0.0:
   DIFFERENT license:
     3.0.0:
     4.0.0: MIT
